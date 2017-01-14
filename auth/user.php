@@ -33,12 +33,12 @@ class user {
 			'salt'=>'a bunch of random characters and symbols for security' // random characters for salting passwords & sessions
 		),
 		'pages'=>array(
-			'login'=>'auth/login', // login page
-			'signup'=>'auth/signup', // registration page
-			'manage'=>'auth/manage', // change email page
-			'change'=>'auth/change', // change password page
-            'reset'=>'auth/reset', // reset password page
-            'loginmobile'=>'auth/loginmobile', // login page
+			'login'=>'auth/login.php', // login page
+			'signup'=>'auth/signup.php', // registration page
+			'manage'=>'auth/manage.php', // change email page
+			'change'=>'auth/change.php', // change password page
+            'reset'=>'auth/reset.php', // reset password page
+            'loginmobile'=>'auth/loginmobile.php', // login page
 
 			'activate'=>'auth/activate', // change email action page
             'doreset'=>'auth/doreset' // reset pw action page
